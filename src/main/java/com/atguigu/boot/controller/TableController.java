@@ -40,12 +40,6 @@ public class TableController {
         return "/table/editable_table";
     }
 
-    @GetMapping("/pricing_table")
-    public String pricing(){
-
-        return "/table/pricing_table";
-    }
-
     @GetMapping("/responsive_table")
     public String responsive(){
 

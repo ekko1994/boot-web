@@ -11,13 +11,13 @@
   <title>AdminX</title>
 
   <!--icheck-->
-  <link href="js/iCheck/skins/minimal/minimal.css" rel="stylesheet">
-  <link href="js/iCheck/skins/square/square.css" rel="stylesheet">
-  <link href="js/iCheck/skins/square/red.css" rel="stylesheet">
-  <link href="js/iCheck/skins/square/blue.css" rel="stylesheet">
+  <link th:href="@{/js/iCheck/skins/minimal/minimal.css}" rel="stylesheet">
+  <link th:href="@{/js/iCheck/skins/square/square.css}" rel="stylesheet">
+  <link th:href="@{/js/iCheck/skins/square/red.css}" rel="stylesheet">
+  <link th:href="@{/js/iCheck/skins/square/blue.css}" rel="stylesheet">
 
   <!--dashboard calendar-->
-  <link href="css/clndr.css" rel="stylesheet">
+  <link th:href="@{/css/clndr.css}" rel="stylesheet">
 
 
 <div th:replace="common :: commonhead"></div>
@@ -549,26 +549,26 @@
 
 
 <!--easy pie chart-->
-<script src="js/easypiechart/jquery.easypiechart.js"></script>
-<script src="js/easypiechart/easypiechart-init.js"></script>
+<script th:src="@{/js/easypiechart/jquery.easypiechart.js}"></script>
+<script th:src="@{/js/easypiechart/easypiechart-init.js}"></script>
 
 <!--Sparkline Chart-->
-<script src="js/sparkline/jquery.sparkline.js"></script>
-<script src="js/sparkline/sparkline-init.js"></script>
+<script th:src="@{/js/sparkline/jquery.sparkline.js}"></script>
+<script th:src="@{/js/sparkline/sparkline-init.js}"></script>
 
 <!--icheck -->
-<script src="js/iCheck/jquery.icheck.js"></script>
-<script src="js/icheck-init.js"></script>
+<script th:src="@{/js/iCheck/jquery.icheck.js}"></script>
+<script th:src="@{/js/icheck-init.js}"></script>
 
 <!-- jQuery Flot Chart-->
-<script src="js/flot-chart/jquery.flot.js"></script>
-<script src="js/flot-chart/jquery.flot.tooltip.js"></script>
-<script src="js/flot-chart/jquery.flot.resize.js"></script>
-<script src="js/flot-chart/jquery.flot.pie.resize.js"></script>
-<script src="js/flot-chart/jquery.flot.selection.js"></script>
-<script src="js/flot-chart/jquery.flot.stack.js"></script>
-<script src="js/flot-chart/jquery.flot.time.js"></script>
-<script src="js/main-chart.js"></script>
+<script th:src="@{/js/flot-chart/jquery.flot.js}"></script>
+<script th:src="@{/js/flot-chart/jquery.flot.tooltip.js}"></script>
+<script th:src="@{/js/flot-chart/jquery.flot.resize.js}"></script>
+<script th:src="@{/js/flot-chart/jquery.flot.pie.resize.js}"></script>
+<script th:src="@{/js/flot-chart/jquery.flot.selection.js}"></script>
+<script th:src="@{/js/flot-chart/jquery.flot.stack.js}"></script>
+<script th:src="@{/js/flot-chart/jquery.flot.time.js}"></script>
+<script th:src="@{/js/main-chart.js}"></script>
 
 
 <div th:include="~{common :: #commonscript}"></div>
