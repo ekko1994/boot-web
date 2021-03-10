@@ -18,7 +18,7 @@ public class TableController {
     @GetMapping("/basic_table")
     public String basic(){
 
-        return "/table/basic_table";
+        return "table/basic_table";
     }
 
     @GetMapping("/dynamic_table")
@@ -31,18 +31,18 @@ public class TableController {
                 new User("gdfsd", "fdhgf"));
 
         model.addAttribute("users", users);
-        return "/table/dynamic_table";
+        return "table/dynamic_table";
     }
 
     @GetMapping(value = "/editable_table")
     public String editable(){
 
-        return "/table/editable_table";
+        return "table/editable_table";
     }
 
     @GetMapping("/responsive_table")
     public String responsive(){
 
-        return "/table/responsive_table";
+        return "table/responsive_table";
     }
 }
